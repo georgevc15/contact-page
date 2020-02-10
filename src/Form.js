@@ -124,7 +124,7 @@ onSubmit = (e) => {
                     </div>
                     <div className="form-group">
                     <input
-                    name = "lastName" 
+                    name="lastName" 
                     placeholder='Nom' 
                     value={this.state.nom} 
                     onChange={e => this.change(e)}
@@ -138,7 +138,7 @@ onSubmit = (e) => {
                     </div>
                     <div className="form-group">
                     <input
-                    name = "email" 
+                    name="email" 
                     placeholder='Email' 
                     value={this.state.email} 
                     onChange={e => this.change(e)}
@@ -152,7 +152,7 @@ onSubmit = (e) => {
                     </div>
                     <div className="form-group">
                     <input
-                    name ="phone"
+                    name="phone"
                     placeholder='Telephone' 
                     value={this.state.telephone} 
                     onChange={e => this.change(e)}
